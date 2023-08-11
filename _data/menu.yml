@@ -1,0 +1,32 @@
+- title: "About"
+  href: "/about/"
+
+- title: "Publications"
+  href: "/publications/"
+
+- title: "Research"
+  href: "/research/"
+  subcategories:
+    - subtitle: "Spectroscopy"
+      subhref: "/research/spectro/"
+    - subtitle: "Biomedical Signals"
+      subhref: "/research/biomedical/"
+    - subtitle: "Agriculture"
+      subhref: "/research/agriculture/"
+
+- title: "Teaching"
+  href: "/teaching/"
+
+- title: "Blog"
+  href: "/blog/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Misc."
+  href: "/miscellany/"
+  subcategories:
+    - subtitle: "Extracurriculars"
+      subhref: "/miscellany/extracurricular/"
+    - subtitle: "Travel"
+      subhref: "/miscellany/travel/"

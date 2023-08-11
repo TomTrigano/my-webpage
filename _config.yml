@@ -1,0 +1,27 @@
+# Site settings
+title: Tom's Homepage and Musings
+general_email: tom.trigano@gmail.com
+academic_email: thomast@sce.ac.il
+
+description: > # this means to ignore newlines until "baseurl:"
+  Lutter sans cesse contre l'envie des hommes de n'etre rien du tout.
+                                           (Trust)
+
+baseurl: "/my-webpage" # the subpath of your site, e.g. /blog/
+
+url: "tomtrigano.github.io" # the base hostname & protocol for your site
+
+# twitter_username: jekyllrb
+github_username: TomTrigano
+linkedin_username: tom-trigano-35806754
+# facebook_username: facebook_username
+# feel free to add other links here; you will have to add the SVG icon in _layouts/footer.html
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+
+# Other options
+permalink: blog/:year/:month/:title

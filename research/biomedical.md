@@ -1,0 +1,9 @@
+---
+layout: page
+title: Signal Processing and Machine Learning for Biosignals
+permalink: /research/biomedical/
+---
+
+ In my ongoing collaboration with University of Madrid, we developed algorithms to investigate atrial fibrillation in intracardiac ECG, recorded during operation procedures. The recorded signals in this topic are different mainly in two points: contrary to spectroscopic signals, they do not overlap due to physiological constraints. Second, they are recorded using a multi-electrode catheter, which results in a multichannel signal where all pulses are roughly synchronized. Electrode motion noise also makes some peaks less obvious in the recordings, and an additional difficulty is the lack of data making the use of deep learning methods irrelevant. Based on these considerations, we developed a novel algorithm based on a version of the grouped LASSO with overlapping groups, and investigated its properties. The proposed algorithm was shown to locate the peaks in intracardiac ECG recordings very efficiently; furthermore, we showed that it could be implemented efficiently using an acceleration of the ADMM also presented. This algorithm could therefore be implemented in medical devices used for monitoring the heart activity during invasive procedures.
+
+I intend to continue my ongoing collaboration to develop statistical signal processing tools to better take into consideration the physiological constraints into the sparsity penalties commonly used. In the next step, I will work on the automatic AF identification based on auxiliary recordings (speech, breathing, etc.) at early stages.
