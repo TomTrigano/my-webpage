@@ -4,9 +4,13 @@ permalink: /publications/
 title: Publication List
 ---
 
-Last updated: September 2023
+Last updated: December 2023
 
 # Journal papers
+
+1. **T. Trigano**, S. Talala and D. Luengo, *Adaptive Trend Filtering
+   for ECG Denoising and Delineation*, in IEEE Journal of Biomedical
+   and Health Informatics, to appear,<https://doi.org/10.1109/jbhi.2023.3314983> (**Q1**, GR 91, IF 7.7)
 
 1.  **T. Trigano** and Z. Fradkin, *Fast Algorithm for Time Decay Estimation with Applications to Electrostatic Ion Beam Traps*, in Measurement Science and Technology,  Vol 34(2), pp. 025701, 2023, <https://doi.org/10.1088/1361-6501/ac9c23>. (**Q2**, GR 42, IF 2.398).
 
