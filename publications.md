@@ -4,13 +4,21 @@ permalink: /publications/
 title: Publication List
 ---
 
-Last updated: December 2023
+Last updated: March 2025
 
 # Journal papers
 
-1. **T. Trigano**, S. Talala and D. Luengo, *Adaptive Trend Filtering
-   for ECG Denoising and Delineation*, in IEEE Journal of Biomedical
-   and Health Informatics, to appear,<https://doi.org/10.1109/jbhi.2023.3314983> (**Q1**, GR 91, IF 7.7)
+1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, to appear in IEEE Sensors Letters, 2025. (**Q2**, IF 2.2, GR h-5 34)
+
+1. Y. Huang, X. Zheng, Y. Zhu, **T. Trigano**, Z. Chen and D. Bykhovsky, *Deep learning based pile-up correction algorithm for spectrometric data under high count rate measurements*, in Sensors, Special Issue on Spectral Detection Technology, Sensors and Instruments, Vol 25(5), 1464, Feb. 2025. (**Q2**, IF 3.4, GR h-5 191)
+
+1. Z. Chen, D. Bykhovsky, X. Zheng, **T. Trigano**, Y. Zhu, *GaSim: A Python Class to Generate Simulated Time Signals for Gamma Spectroscopy*, in SoftwareX, Vol 29(2), 102037, <https://doi.org/10.1016/j.softx.2025.102037> (**Q2**, IF 2.4, GR h-5 45)
+
+1. Y. Tzror, M. Bezner, S. Deri, **T. Trigano**, K. Ben-Harush, *Nanofilament organization in highly tough fibers based on lamin proteins*, Journal of the Mechanical Behavior of Biomedical Materials, 160, 106748, 2024. <http://dx.doi.org/10.2139/ssrn.4868528> (**Q1**, IF 3.3, GR h-5 83)
+
+1. **T. Trigano** and D. Bykhovsky, *Deep Learning Based Method for Activity Estimation from Short-Duration Gamma Spectroscopy Recordings,* in IEEE Transactions in Instrumentation and Measurement, Aug. 2024, <https://doi.org/10.1109/TIM.2024.3449943> (**Q1**, IF 5.6, GR h-5 139)
+
+1. **T. Trigano**, S. Talala and D. Luengo, *Adaptive Trend Filtering for ECG Denoising and Delineation*, in IEEE Journal of Biomedical and Health Informatics, Vol 27(12), Dec. 2023, pp. 5755-5766.,<https://doi.org/10.1109/jbhi.2023.3314983> (**Q1**, GR 91, IF 7.7)
 
 1.  **T. Trigano** and Z. Fradkin, *Fast Algorithm for Time Decay Estimation with Applications to Electrostatic Ion Beam Traps*, in Measurement Science and Technology,  Vol 34(2), pp. 025701, 2023, <https://doi.org/10.1088/1361-6501/ac9c23>. (**Q2**, GR 42, IF 2.398).
 
