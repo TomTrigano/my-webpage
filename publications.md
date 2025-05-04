@@ -4,9 +4,11 @@ permalink: /publications/
 title: Publication List
 ---
 
-Last updated: March 2025
+Last updated: May 2025
 
 # Journal papers
+
+1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, to appear in Machine Learning, Springer, 2025. (**Q1**, IF 4.3, GR h-5 57)
 
 1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, to appear in IEEE Sensors Letters, 2025. (**Q2**, IF 2.2, GR h-5 34)
 
