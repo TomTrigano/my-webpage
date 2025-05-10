@@ -8,6 +8,8 @@ Last updated: May 2025
 
 # Journal papers
 
+1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, ''Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry'', to appear in IEEE Transactions in Instrumentation and Measurement, 2025. (**Q1**, IF 5.6, GR h-5 139)
+
 1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, to appear in Machine Learning, Springer, 2025. (**Q1**, IF 4.3, GR h-5 57)
 
 1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, to appear in IEEE Sensors Letters, 2025. (**Q2**, IF 2.2, GR h-5 34)
@@ -88,6 +90,8 @@ Last updated: May 2025
 
 # Conference proceedings
 
+1. C. Lin, Z. Chen, C. Feng, S. Gu, X. Zheng, Y. Zhu, **T. Trigano** , and D. Bykhovsky, *An open X-ray spectrometric dataset for deep learning-based pile-up correction* Proceedings of WASA 2025.
+
 1. D. Luengo, A. Treytl, P. Arras, K. Kornijenko, G. Tabunshchyk and **T. Trigano**, *Improving Quality of Life through the Engineering Education. Case Study*, Proceedings of E-TEMS, 9-11 March 2022, Bilbao, Spain, pp 190-195,  2022. [10.1109/E-TEMS53558.2022.9944453](https://doi.org/10.1109/E-TEMS53558.2022.9944453)
 
 1. D. Luengo, J. Via and **T. Trigano**, *Efficient Iteratively Rewighted LASSO Algorithm for Cross-Products Penalized Sparse Solutions*, Proceedings of EURASIP Conference in Signal Processing (EUSIPCO, Qualis rank: B1), 18-21 January 2021, Amsterdam, Netherlands, 5 pages, 2020, [10.23919/Eusipco47968.2020.9287804](https://doi.org/10.23919/Eusipco47968.2020.9287804)
@@ -135,11 +139,11 @@ Last updated: May 2025
 
 ## Theses
 
-1.  **T. Trigano**, *Statistical spectromatric signal
+1.  **T. Trigano**, *Statistical spectromatric signal
     processing: pileup correction algorithms for gamma spectrometry*,
     PhD thesis (French), 159 pages, 2005.
 
-1.  **T. Trigano**, *On the asymptotic properties of Hill's
+1.  **T. Trigano**, *On the asymptotic properties of Hill's
     estimator*, M.S. thesis, Paris 6 University, 47 pages, 2001.
 
 ## Courses booklets
