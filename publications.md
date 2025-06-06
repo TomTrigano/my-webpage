@@ -10,7 +10,7 @@ Last updated: May 2025
 
 1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, ''Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry'', to appear in IEEE Transactions in Instrumentation and Measurement, 2025. (**Q1**, IF 5.6, GR h-5 139)
 
-1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, to appear in Machine Learning, Springer, 2025. (**Q1**, IF 4.3, GR h-5 57)
+1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, in Machine Learning, Vol 125, art. 162, Springer, 2025. <https://doi.org/10.1007/s10994-025-06791-4> (**Q1**, IF 4.3, GR h-5 57)
 
 1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, to appear in IEEE Sensors Letters, 2025. (**Q2**, IF 2.2, GR h-5 34)
 
