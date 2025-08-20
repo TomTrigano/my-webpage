@@ -7,6 +7,7 @@ title: Publication List
 Last updated: May 2025
 
 # Journal papers
+1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, to appear in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, 2025. (**Q2**, IF 2.4, GR h-5 48)
 
 1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, *FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination*, to appear in Computers in Biology and Medicine, 2025. (**Q1**, IF 6.3, GR h-5 140)
 
@@ -14,9 +15,9 @@ Last updated: May 2025
 
 1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, in Machine Learning, Vol 114(7), pp. 1-16, Springer, 2025. <https://doi.org/10.1007/s10994-025-06791-4> (**Q1**, IF 4.3, GR h-5 57)
 
-1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, to appear in IEEE Sensors Letters, 2025. (**Q2**, IF 2.2, GR h-5 34)
+1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, in IEEE Sensors Letters, Vol 9(4), pp. 1-4, Apr. 2025. DOI: <https://doi.org/10.1109/LSENS.2025.3544656> (**Q2**, IF 2.2, GR h-5 34)
 
-1. Y. Huang, X. Zheng, Y. Zhu, **T. Trigano**, Z. Chen and D. Bykhovsky, *Deep learning based pile-up correction algorithm for spectrometric data under high count rate measurements*, in Sensors, Special Issue on Spectral Detection Technology, Sensors and Instruments, Vol 25(5), 1464, Feb. 2025. (**Q2**, IF 3.4, GR h-5 191)
+1. Y. Huang, X. Zheng, Y. Zhu, **T. Trigano**, Z. Chen and D. Bykhovsky, *Deep learning based pile-up correction algorithm for spectrometric data under high count rate measurements*, in Sensors, Special Issue on Spectral Detection Technology, Sensors and Instruments, Vol 25(5), 1464, Feb. 2025. DOI: <https://doi.org/10.3390/s25051464> (**Q2**, IF 3.4, GR h-5 191)
 
 1. Z. Chen, D. Bykhovsky, X. Zheng, **T. Trigano**, Y. Zhu, *GaSim: A Python Class to Generate Simulated Time Signals for Gamma Spectroscopy*, in SoftwareX, Vol 29(2), 102037, <https://doi.org/10.1016/j.softx.2025.102037> (**Q2**, IF 2.4, GR h-5 45)
 
