@@ -7,9 +7,10 @@ title: Publication List
 Last updated: May 2025
 
 # Journal papers
-1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, to appear in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, 2025. (**Q2**, IF 2.4, GR h-5 48)
+1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI:
+<https://doi.org/10.1016/j.nima.2025.170929>. (**Q2**, IF 2.4, GR h-5 48)
 
-1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, *FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination*, to appear in Computers in Biology and Medicine, 2025. (**Q1**, IF 6.3, GR h-5 140)
+1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, *FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination*, in Computers in Biology and Medicine, Vol. 197, Part A, 110927, Oct. 2025. DOI: <https://doi.org/10.1016/j.compbiomed.2025.110927>. (**Q1**, IF 6.3, GR h-5 140)
 
 1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, *Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry*, in IEEE Transactions in Instrumentation and Measurement, Vol. 74, 2533014, May. 2025. DOI: <https://doi.org/10.1109/TIM.2025.3573370> (**Q1**, IF 5.6, GR h-5 139)
 
