@@ -34,6 +34,10 @@ Well, you know to which quote goes my preference, considering my line of work...
 
 * Introduction to Random Signal Processing
 
+* Introduction to Machine Learning
+
+* Introduction to Digital Image Processing
+
 ## At [Tel-Aviv University](www.tau.ac.il)
 
 * Introduction to Signal Processing
