@@ -7,6 +7,8 @@ title: Publication List
 Last updated: September 2025
 
 # Journal papers
+1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <10.1016/j.saa.2025.127392>  (**Q1**, IF 4.6, GR h-5 79)
+
 1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI: <https://doi.org/10.1016/j.nima.2025.170929>. (**Q2**, IF 2.4, GR h-5 48)
 
 1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, *FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination*, in Computers in Biology and Medicine, Vol. 197, Part A, 110927, Oct. 2025. DOI: <https://doi.org/10.1016/j.compbiomed.2025.110927>. (**Q1**, IF 6.3, GR h-5 140)
