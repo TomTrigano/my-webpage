@@ -7,7 +7,9 @@ title: Publication List
 Last updated: September 2025
 
 # Journal papers
-1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <10.1016/j.saa.2025.127392>  (**Q1**, IF 4.6, GR h-5 79)
+1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudaic, **T. Trigano**, I. Herrmann, *Pre- and post-harvest spectral estimation of selected phytochemicals in rosemary*, in Computers and Electronics in Agriculture, Vol. 244, 111501, Mar. 2026. DOI: <https://doi.org/10.1016/j.compag.2026.111501> (**Q1**, IF 8.9, GR h-5 138)
+
+1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (**Q1**, IF 4.6, GR h-5 79)
 
 1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI: <https://doi.org/10.1016/j.nima.2025.170929>. (**Q2**, IF 2.4, GR h-5 48)
 
