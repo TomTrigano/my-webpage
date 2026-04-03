@@ -4,9 +4,12 @@ permalink: /publications/
 title: Publication List
 ---
 
-Last updated: September 2025
+Last updated: April 2026
 
 # Journal papers
+
+1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, *Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis*, in Sensors, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (**Q2**, IF 3.4, GR h-5 191)
+
 1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudaic, **T. Trigano**, I. Herrmann, *Pre- and post-harvest spectral estimation of selected phytochemicals in rosemary*, in Computers and Electronics in Agriculture, Vol. 244, 111501, Mar. 2026. DOI: <https://doi.org/10.1016/j.compag.2026.111501> (**Q1**, IF 8.9, GR h-5 138)
 
 1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (**Q1**, IF 4.6, GR h-5 79)
