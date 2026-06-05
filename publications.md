@@ -8,19 +8,23 @@ Last updated: April 2026
 
 # Journal papers
 
-1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, *Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis*, in Sensors, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (**Q2**, IF 3.4, GR h-5 191)
+*\[Information on Impact factors quartiles and rankings are related to the year of publication. Acronyms used: SCI: Scimago quartile, JCR: Journal Citation Report quartile\]. Journal rankings are taken from the JCR website.\]*
 
-1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudaic, **T. Trigano**, I. Herrmann, *Pre- and post-harvest spectral estimation of selected phytochemicals in rosemary*, in Computers and Electronics in Agriculture, Vol. 244, 111501, Mar. 2026. DOI: <https://doi.org/10.1016/j.compag.2026.111501> (**Q1**, IF 8.9, GR h-5 138)
+1. Y. Sepulcre and **T. Trigano**, "Sparser LASSO Induced by Convolutional Expansion (SLICE) for Robust Peak Localization in Gamma Spectroscopy", in *Signal Processing*, Vol. 249, Dec. 2026. DOI: <https://10.1016/j.sigpro.2026.110740> (SCI: Q1, JCR: Q2, 5 year IF 3.9, ranking 130/368, GR h-5 66) 
 
-1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (**Q1**, IF 4.6, GR h-5 79)
+1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, "Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis", in *Sensors*, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (SCI: Q1, JCR: Q2, 5 year IF 3.7, ranking 134/368, GR h-5 210)
 
-1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, *Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture*, in Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI: <https://doi.org/10.1016/j.nima.2025.170929>. (**Q2**, IF 2.4, GR h-5 48)
+1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (SCI: Q1, JCR: Q1, 5-year IF 3.4, ranking 5/44, GR h-5 79)
 
-1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, *FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination*, in Computers in Biology and Medicine, Vol. 197, Part A, 110927, Oct. 2025. DOI: <https://doi.org/10.1016/j.compbiomed.2025.110927>. (**Q1**, IF 6.3, GR h-5 140)
+1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudaic, **T. Trigano**, I. Herrmann, "Pre- and post-harvest spectral estimation of selected phytochemicals in rosemary", in *Computers and Electronics in Agriculture*, Vol. 244, 111501, Mar. 2026. DOI: <https://doi.org/10.1016/j.compag.2026.111501> SCI: Q1, JCR: Q1, 5-year IF 9.3, 2/94, GR h-5 138)
 
-1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, *Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry*, in IEEE Transactions in Instrumentation and Measurement, Vol. 74, 2533014, May. 2025. DOI: <https://doi.org/10.1109/TIM.2025.3573370> (**Q1**, IF 5.6, GR h-5 139)
+1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, "Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture", in *Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment*,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI: <https://doi.org/10.1016/j.nima.2025.170929>. (SCI: Q2, JCR: Q3, 5-year IF: 1.4, ranking 57/79, GR h-5 48)
 
-1. A. Squicciarini, **T. Trigano** and D. Luengo, *Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance*, in Machine Learning, Vol 114(7), pp. 1-16, Springer, 2025. <https://doi.org/10.1007/s10994-025-06791-4> (**Q1**, IF 4.3, GR h-5 57)
+1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, "FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination", in *Computers in Biology and Medicine*, Vol. 197, Part A, 110927, Oct. 2025. DOI: <https://doi.org/10.1016/j.compbiomed.2025.110927>. (SCI: Q1, JCR: Q1, 5-year IF 6.5, ranking 26/177, GR h-5 140)
+
+1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, "Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry", in *IEEE Transactions on Instrumentation and Measurement*, Vol. 74, 2533014, May. 2025. DOI: <https://doi.org/10.1109/TIM.2025.3573370> (SCI: Q1, JCR: Q1, 5-year IF 6.0, ranking: 54/368, GR h-5 124)
+
+1. A. Squicciarini, **T. Trigano** and D. Luengo, "Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance", in *Machine Learning*, Vol 114(7), pp. 1-16, Springer, 2025. <https://doi.org/10.1007/s10994-025-06791-4> (SCI: Q1, JCR: Q2, 5-year IF 6.6, ranking 101/204, GR h-5 63)
 
 1. D. Bykhovsky, Z. Chen, Y. Huang, X. Zheng and **T. Trigano**, *Advanced Spectroscopy Time-Domain Signal Simulator for the Development of Machine and Deep Learning Algorithms*, in IEEE Sensors Letters, Vol 9(4), pp. 1-4, Apr. 2025. DOI: <https://doi.org/10.1109/LSENS.2025.3544656> (**Q2**, IF 2.2, GR h-5 34)
 
