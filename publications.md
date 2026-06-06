@@ -10,6 +10,8 @@ Last updated: April 2026
 
 *\[Information on Impact factors quartiles and rankings are related to the year of publication. Acronyms used: SCI: Scimago quartile, JCR: Journal Citation Report quartile\]. Journal rankings are taken from the JCR website.\]*
 
+1. C. Lin, Y. Huang, Z. Chen, S. Gu, D. Bykhovsky, **T. Trigano**, X. Zheng,  Y. Zhu, ''Semi-Supervised Energy Spectrum Estimation in High Count-Rate Nuclear Spectrometry'', to appear in *IEEE Transactions on Instrumentation and Measurement*, 2026.
+
 1. Y. Sepulcre and **T. Trigano**, "Sparser LASSO Induced by Convolutional Expansion (SLICE) for Robust Peak Localization in Gamma Spectroscopy", in *Signal Processing*, Vol. 249, Dec. 2026. DOI: <https://10.1016/j.sigpro.2026.110740> (SCI: Q1, JCR: Q2, 5 year IF 3.9, ranking 130/368, GR h-5 66) 
 
 1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, "Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis", in *Sensors*, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (SCI: Q1, JCR: Q2, 5 year IF 3.7, ranking 134/368, GR h-5 210)
