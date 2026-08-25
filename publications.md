@@ -36,9 +36,9 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2025] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="huang_deep_2024">Click here to download the preprint</a><br><br>
+   <a href="huang_deep_2024.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
 
 
 1. A. Squicciarini, **T. Trigano** and D. Luengo, "Jensen-Tsallis Divergence for Supervised Classification under Data Imbalance", in *Machine Learning*, Vol 114(7), pp. 1-16, Springer, 2025. <https://doi.org/10.1007/s10994-025-06791-4> (SCI: Q1, JCR: Q2, 5-year IF 6.6, ranking 101/204, GR h-5 63)
@@ -48,9 +48,9 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2025] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="bykhovsky_advanced_2025">Click here to download the preprint</a><br><br>
+   <a href="bykhovsky_advanced_2025.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
 
 1. Y. Huang, X. Zheng, Y. Zhu, **T. Trigano**, Z. Chen and D. Bykhovsky, *Deep learning based pile-up correction algorithm for spectrometric data under high count rate measurements*, in Sensors, Special Issue on Spectral Detection Technology, Sensors and Instruments, Vol 25(5), 1464, Feb. 2025. DOI: <https://doi.org/10.3390/s25051464> (**Q2**, IF 3.4, GR h-5 191)
 
@@ -63,18 +63,18 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2024] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_deep_2024">Click here to download the preprint</a><br><br>
+   <a href="trigano_deep_2024.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. **T. Trigano**, S. Talala and D. Luengo, *Adaptive Trend Filtering for ECG Denoising and Delineation*, in IEEE Journal of Biomedical and Health Informatics, Vol 27(12), Dec. 2023, pp. 5755-5766.,<https://doi.org/10.1109/jbhi.2023.3314983> (**Q1**, GR 91, IF 7.7)
    <details>
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2023] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_adaptive_2023">Click here to download the preprint</a><br><br>
+   <a href="trigano_adaptive_2023.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
 
 1.  **T. Trigano** and Z. Fradkin, *Fast Algorithm for Time Decay Estimation with Applications to Electrostatic Ion Beam Traps*, in Measurement Science and Technology,  Vol 34(2), pp. 025701, 2023, <https://doi.org/10.1088/1361-6501/ac9c23>. (**Q2**, GR 42, IF 2.398).
 
@@ -83,12 +83,29 @@ Last updated: August 2026
 1. M. Khayat, S. Deri, D. Wolf, **T. Trigano**, O. Medalia, K. Ben-Harush, *Biomimetic nuclear lamin fibers with remarkable toughness and stiffness*, in International Journal of Biological Macromolecules, Vol 163, pp 2060-2067, Nov. 2020, <https://doi.org/10.1016/j.ijbiomac.2020.09.113> (**Q2**, GR 123, IF 8.025).
 
 1. **T. Trigano**, S. Vaknin and D. Luengo, *Fast Proximal Optimization for Sparse Reconstruction with Dictionaries Based on Translated Waveforms*, in Signal Processing, Vol 169(4),  paper  107379, April 2020, <https://doi.org/10.1016/j.sigpro.2019.107379> (**Q1**, GR 71, IF 4.729).
-
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2020] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
+</small>
+   <a href="trigano_sp_2020.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+   
 1. **T. Trigano** and Y. Bechor, *Fast Background Removal of JPEG Images Based on HSV Polygonal Cuts for a Foot Scanner Device*, Journal of Real-Time Image Processing, 17(4), pp. 981-992, 2019, <https://doi.org/10.1007/s11554-019-00850-5>  (**Q2**, GR 32, IF 2.293).
 
 1. D. Luengo, D. Meltzer and **T. Trigano**, *An Efficient Method to Learn Overcomplete Multi-Scale Dictionaries of ECG Signals*, Applied Science, 8(12), 2018, [**https://doi.org/10.3390/app8122569**](https://doi.org/10.3390/app8122569) (**Q2**, GR 105, IF 2.638).
 
 1. **T. Trigano** and Y. Sepulcre, *Data-driven Parameter Selection in Activity Estimation for Nuclear Spectroscopy* , Signal Processing, 151, 99-106, 2018, <https://doi.org/10.1016/j.sigpro.2018.05.006> (**Q1**, GR 71, IF 4.729).
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2018] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
+</small>
+   <a href="trigano_entropy_2018.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+
 
 1. D. Bykhovsky and **T. Trigano**, *Numerical Generation of Compound Random Processes with Arbitrary Autocorrelation Functions*, Fluctuations and Noise Letters, Nov. 2017, <https://doi.org/10.1142/S0219477518500013> (**Q3**, GR 17).
 
@@ -98,7 +115,7 @@ Last updated: August 2026
    
    <small> © [2017] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
 </small>
-   <a href="lin_semi_2026.pdf">Click here to download the preprint</a><br><br>
+   <a href="trigano_cosa_2017.pdf">Click here to download the preprint</a><br><br>
    
    </details><br>
 
@@ -108,36 +125,36 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2017] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_intensity_2017">Click here to download the preprint</a><br><br>
+   <a href="trigano_intensity_2017.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. **T. Trigano**, Y. Sepulcre and Y. Ritov, *Sparse Reconstruction Algorithm for Nonhomogeneous Counting Rate Estimation*, IEEE Transactions in Signal Processing, Vol. 65(2), pp 372-385, 2017, [10.1109/TSP.2016.2620104](https://doi.org/10.1109/TSP.2016.2620104) (**Q1**, GR 98, IF 4.875).
    <details>
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2016] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_sparse_2016">Click here to download the preprint</a><br><br>
+   <a href="trigano_sparse_2016.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. **T. Trigano**, I. Gildin and Y. Sepulcre, *Pileup Correction Algorithm Using an Iterated Sparse Reconstruction Method*, IEEE Signal Processing Letters, Vol. 22(9), pp. 1392-1396, 2015, [10.1109/LSP.2015.2406911](https://doi.org/10.1109/LSP.2015.2406911) (**Q1**, GR 62, IF 3.201).
    <details>
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2015] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_pileup_2015">Click here to download the preprint</a><br><br>
+   <a href="trigano_pileup_2015.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. **T. Trigano**, E. Barat, T. Dautremer and T. Montagu, *Fast Digital Filtering of Spectrometric Data for Pile-Up Correction*, IEEE Signal Processing Letters, Vol. 22(7), pp. 973-977, July. 2015, [10.1109/LSP.2014.2377352](https://doi.org/10.1109/LSP.2014.2377352) (**Q1**, GR 62, IF 3.201).
    <details>
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2015] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_fast_2015">Click here to download the preprint</a><br><br>
+   <a href="trigano_fast_2015.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. D. Luengo, S. Monzon, **T. Trigano**, J. Via and A. Artes-Rodrigues, *Blind Analysis of Atrial Fibrillation Electrograms: Sparsity-Aware Formulation*, Integrated Computer Aided Engineering, Vol. 22-1, pp.71-85, 2015, <https://doi.org/10.3233/ICA-140471> (**Q1**, GR 24, IF 6.137).
 
@@ -146,9 +163,9 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2013] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_sparse_2013">Click here to download the preprint</a><br><br>
+   <a href="trigano_sparse_2013.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
    
 1. R. Goot, **T. Trigano**, S. Tapuchi and J. Gavan, *Adaptative Allocation of Power Transmission for HAPs*, in Annals of Telecommunications, Vol 67, 1-7, June 2012, <https://doi.org/10.1007/s12243-012-0303-1> (**Q2**,  GR 24, IF 1.901).
 

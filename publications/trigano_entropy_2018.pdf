@@ -1,0 +1,572 @@
+%% This is file `elsarticle-template-1-num.tex',
+%%
+%% Copyright 2009 Elsevier Ltd
+%%
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%%
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%%
+%% Template article for Elsevier's document class `elsarticle'
+%% with numbered style bibliographic references
+%%
+%% $Id: elsarticle-template-1-num.tex 149 2009-10-08 05:01:15Z rishi $
+%% $URL: http://lenova.river-valley.com/svn/elsbst/trunk/elsarticle-template-1-num.tex $
+%%
+%\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+\documentclass[preprint,review]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,amsthm}
+%\usepackage[font=footnotesize]{subfig}                                                                                                
+\usepackage{graphicx,comment,todonotes}
+\usepackage{algorithm2e}
+\usepackage{subcaption}
+\def\1{\mathbf{1}}
+\def\mathbbm{\mathbf}
+
+\graphicspath{{./graphs/},{./}}
+
+\excludecomment{draftResearch}
+\includecomment{elseviersubmission}
+\includecomment{elsevierrevision}
+\includecomment{elsevierrevision2}
+\excludecomment{IEEEsubmission}
+%\excludecomment{elsevierrevision}
+%\includecomment{elsevierversion1}
+\excludecomment{elsevierversion1}
+
+\DeclareMathOperator*{\argmin}{Arg\,min}
+
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+
+
+
+\usepackage[hypertexnames=false]{hyperref}
+\usepackage{autonum}
+
+\journal{Signal Processing}
+
+\makeatletter
+\def\ps@pprintTitle{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\reset@font\hfil
+      \begin{minipage}{0.8\textwidth} % Adjust the 0.8 to make it wider or narrower
+      \centering
+   \textcopyright\ 2018. Published by Elsevier. \\
+This manuscript version is made available under the CC-BY-NC-ND 4.0 license \\
+   \url{https://creativecommons.org/licenses/by-nc-nd/4.0/}%
+    \end{minipage}%  
+  \hfil}%
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+\title{Data-driven Parameter Selection for Activity Estimation in Nuclear Spectroscopy}
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for the associated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for the associated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for the associated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%%
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \address{Address\fnref{label3}}
+%% \fntext[label3]{}
+
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{<author name>}
+%% \address[label1]{<address>}
+%% \address[label2]{<address>}
+
+\author{Tom Trigano\corref{cor1}\fnref{tomad}}
+\author{Yann Sepulcre\fnref{yannad}}
+\cortext[cor1]{Corresponding author}
+\fntext[tomad]{Department of Electrical Engineering, SCE, Ashdod campus, Israel}
+\fntext[yannad]{Unit of Mathematics, SCE, Ashdod campus, Israel}
+
+\begin{abstract}
+One of the main objectives of nuclear spectroscopy is the estimation of the counting rate of unknown radioactive sources. Recently an algorithm based on a sparse reconstruction of the time signal was proposed by the authors to estimate precisely this counting rate, and computable bounds were obtained to quantify the performances. This approach, based on a post-processed approach of a non-negative sparse regression of the time signal, %performs well even when the activity of the source is high. However, it 
+relies on user-defined parameters which are difficult to set up automatically in practice. This paper presents a data-driven strategy to select the underlying parameters. The parameter controlling the sparsity of the regressor is chosen based on cross-validation, while we introduce a new, entropy-based, criterion to select the threshold parameters. Results obtained on simulations illustrate the efficiency of the proposed approach.
+\end{abstract}
+
+\begin{keyword}
+Compressive sensing\sep Sparse reconstruction\sep Point processes\sep Model selection\sep Adaptive methods\sep Spectroscopic signal processing
+\end{keyword}
+
+\end{frontmatter}
+
+%%
+%% Start line numbering here if you want
+%%
+\linenumbers
+
+%% main text
+
+\section{Introduction}
+
+The analysis and processing of signals based on underlying point processes have received a great amount of interest in numerous engineering applications, ranging from biomedical engineering~\cite{vonta_statistical_2006} to teletraffic data analysis~\cite{fay_modeling_2006}. Among other aims, practitioners from the field of nuclear spectroscopy often wish to estimate the activity of an unknown radioactive source as well as its contents~\cite{tsoulfanidis_measurement_1995}. Though numerous techniques have been developed in the field of nuclear science for activity estimation~\cite{coates_analytical_1992,pomme_time-interval_1999},%,michotte_experimental_2009},%\cite{coates_distortion_1973,coates_analytical_1992,pomme_time_1998,pomme_accuracy_1999,pomme_time-interval_1999,michotte_experimental_2009},
+ they are usually limited to low and medium activities.
+
+Due to the recent developments in compressive sensing and to the inherent sparsity of the data at hand in these applications, methods to estimate the activity have been suggested by the authors~\cite{sepulcre_sparse_2013,trigano_sparse_2016,trigano_intensity_2017}, which rely on a preliminary sparse reconstruction of the observed signal, and a thresholding of the obtained regressor. Theoretical and practical results~\cite{trigano_sparse_2016,sepulcre_sparse_2013} obtained on real life signals both show the robustness and usefulness of these approaches, even in the case of very high counting rates. However, one of their shortcomings is their dependency on both a sparsity and a thresholding parameter, which are difficult to tune without preliminary knowledge of the source. 
+
+This paper suggests an efficient, fully data-driven, strategy to choose these parameters while guaranteeing a satisfactory estimation of the activity. The main novelty lies in the choice of the threshold parameter, which is based on a local entropy measure. 
+\begin{elsevierrevision}
+Sparsity of signal representation has indeed been related to several measures of entropy. %~\cite{coifman_entropy-based_1992,donoho_ideal_1994}.
+In~\cite{coifman_entropy-based_1992}, the authors introduced some entropy measure associated to a (fixed) vector and several possible orthogonal decompositions, which has to be minimized to obtain some best possible representation. Entropy notions in signal representation can be also combined with an optimal threshold choice, as in~\cite{li_minimum_1993} and~\cite{sarkar_multilevel_2015,sarkar_hyper-spectral_2016} where iterative schemes are derived for its computation. The main difference between the former approaches and ours lies in applying an entropy-based criterion locally, rather than on the whole signal.
+\end{elsevierrevision}
+The rest of the paper is organized as follows: Section~\ref{sec:model_and_estimate} recalls the proposed approach for activity estimation based on spectroscopic data in the homogeneous case. We illustrate empirically that standard cross-validation to choose the thresholding parameter is not a valid strategy. We then present our method for choosing the parameters automatically in section~\ref{sec:cv_description}. While the sparsity parameter can be chosen using regular (or modified) cross-validation, the threshold parameter is chosen using a novel criterion. This criterion is based on the entropy related to a non-negative version of the Least Absolute Shrinkage and Selection Operator (LASSO) regressor. Results on simulations presented in section~\ref{sec:applications} illustrate the validity of the proposed approach.
+
+\section{Overview of the Activity Estimation Algorithm}
+\label{sec:model_and_estimate}
+
+%We shall now introduce the model and the estimate of the activity. This last is derived from the pattern of a regressor solving a sparse regression problem.
+%We recall in this section is the model and the activity estimator we use, in order to introduce the selection method in the next section. 
+
+%\subsection{Mathematical Model}
+
+We observe a signal on the time interval $[0;T]$ uniformly sampled on $\mathcal{T} =  \left \{ 0 = t_0 , t_1, t_2 , \ldots ,  t_{N-1} =T \right \}$ with sampling period $\Delta t$,
+ \begin{equation}
+y_i = \sum_{n=1}^M E_n  \Phi_n (t_i - T_n) +  \varepsilon_i,\  0\leq i\leq N-1\, , \label{eq:discrete_model}
+\end{equation}
+%
+where $\{T_n,\ n\ge 1\}$ denotes the times of interaction between incoming photons and the detectors, $\{E_{n} , 1\le \ n \le M \}$ is a sequence of independent and identically distributed (iid) random variables representing the photonic energies with unknown probability density function, $\{\Phi_{n} ,\  1\le n \le M \}$ is a sequence of functions which characterizes the electric pulse shapes generated by the photons, and $\{\varepsilon_i, \, 0\le  i \leq N-1 \}$ is a sequence of iid Gaussian random variables with zero mean and variance $\sigma^2$ representing the additional noise of the input signal.
+%
+We assume that $\{T_n,\ n\ge 1\}$ is a sample path of a Poisson process with unknown, possibly time-varying, activity $\lambda$. %Notice that $\lambda$ may either be a scalar, when the activity is assumed to be constant over time, or a function when the latter is varying with time. 
+The estimation methods for either constant or time-varying $\lambda$ rely on a preliminary thresholded sparse regressor, which is now detailed.
+
+\subsection{Activity Estimation Based on Thresholded LASSO}
+
+As noted in~\cite{sepulcre_sparse_2013}, neither the energies nor the shapes are known. However, due to to the physics explaining the recorded shapes in gamma spectroscopy experiments with Germanium detectors, it is relevent to represent the signal defined in~\eqref{eq:discrete_model} with a dictionary of truncated gamma shapes in order to obtain a reliable model. 
+\begin{elsevierrevision}
+We can assume % (from an experimental fact) 
+that an individual pulse contains a rapidly increasing part followed by an exponential decay.% (the {\it{tail}}). 
+\end{elsevierrevision}
+We define a set of $p$ pairs of such parameters by $\boldsymbol{\theta} =  \{ (\theta_{1}^{(s)}, \theta_{2}^{(s)}) ; \, \, s=1,2,\ldots,p \}$. For all $s=1,\ldots,p$, we define the following pulse shapes:
+\begin{equation}\label{eq:shape_basis}
+\Gamma_{s}  (t) = c_{s} \, t^{\, \theta_{1}^{(s)}} \exp( - \theta_{2}^{(s)} \, t ) \, \mathbf{1} (0<t \leq\tau \Delta t ),
+\end{equation}
+where $\tau$ is a positive constant integer defining the common support of the pulse shapes, $\mathbf{1}(0<t \leq\tau \Delta t)$ is the indicator function, being equal to $1$ when $0<t \leq\tau \Delta t$ and to $0$ otherwise, and $c_s$ is a normalizing constant chosen so that $\displaystyle \frac1N \sum_{i=0}^{N-1} \Gamma_{s}  {(t_i)}^2 = 1$. 
+\begin{elsevierrevision}
+Obviously, the set $\boldsymbol\theta$ should be chosen carefully, in order to be well suited for $\mathbf{y}$ . For example, in the applications on real signals performed in~\cite{sepulcre_sparse_2013,trigano_intensity_2017}, it was empirically found that choosing $\theta_1^{(s)} = \theta_2^{(s)} \in [0.5,1.5]$ provided satisfactory results, and we used this choice in this paper as well. 
+\end{elsevierrevision}
+%
+Accordingly, we define the following $N \times p$ matrix $\mathbf{A}_k$ whose columns are sampled versions of the previously defined pulse shapes, translated by $t_k$, 
+$
+\mathbf{A}_{k} = {\left [ \, \Gamma_s {(t_{i}- t_{k} )} \, \right ]}_{ 0\leq i \leq N-1,1\leq s \leq p} \label{eq:timeblock} 
+$.
+%
+Intuitively, $\mathbf{A}_k$ can be understood as a subdictionary representing the electrical pulses starting from the same sampling time $t_k$. A global dictionary $\textbf{A}$ of possible pulses occurring at different times is then defined by regrouping the $\mathbf{A}_{k} $'s altogether:
+$
+\textbf{A} = \left[\textbf{A}_{0} \ \  \textbf{A}_{1} \ \  \cdots \ \  \textbf{A}_{N-1} \right] \ .
+\label{eq:global_dictionary}
+$
+%
+Given any vector $\boldsymbol\beta$ of size $ pN  $, it is thus naturally split into blocks of size $p$:
+$\boldsymbol{\beta} =  {[ \boldsymbol\beta_{0}^T ; \ldots ; \boldsymbol\beta_{N-1}^T ]}^{T}$, where for all $i$, $ \boldsymbol\beta_{i} \in \mathbb{R}^{p}$. 
+\begin{elsevierrevision}
+Throughout the paper, we assume that the discretization error can be neglected (a full discussion on the influence of sampling can be found in~\cite{trigano_sparse_2017}). Thus, 
+\end{elsevierrevision}
+\begin{elsevierversion1}
+Thus, assuming that the discretization error can be neglected, 
+\end{elsevierversion1}
+the model investigated in the rest of the paper is
+\begin{equation}
+\label{eq:regression_model}
+\mathbf{y}= \mathbf{A} \boldsymbol\beta + \boldsymbol\varepsilon  = \sum_{k=0}^{N-1} \mathbf{A}_k \boldsymbol\beta_k + \boldsymbol\varepsilon ,
+\end{equation}
+where $\mathbf{y}= {[y_0, y_1, \ldots, y_{N-1}]}^T$ and $\boldsymbol\varepsilon = {[\varepsilon_0, \varepsilon_1, \ldots, \varepsilon_{N-1}]}^T$ represent the recorded signal and the additive noise respectively and $ \boldsymbol\beta $ is a sparse non-negative vector whose non-null entries are related to photon arrival times.%, and $\boldsymbol\delta = {[\delta_0, \delta_1, \ldots, \delta_{N-1}]}^T $ is a vector quantifying the discretization error made between~\eqref{eq:discrete_model} and~\eqref{eq:regression_model}.
+ Our objective is therefore to estimate $
+\lambda$ from~\eqref{eq:regression_model}, and at first to find a sparse estimate of $\boldsymbol\beta$, so that its non-zero entries provide relevant information on the active bins present in the signal. This sparse estimate is obtained by solving a non-negative version of the LASSO, that is 
+\begin{equation}
+\widehat{\boldsymbol\beta}(r) = \arg\min_{\boldsymbol\beta \ge 0} \Bigl\{ \|\mathbf{y} - \mathbf{A}\boldsymbol\beta\|_2^2 + r \|\boldsymbol\beta\|_1 \Bigr\}\ . \label{eq:nnlasso}	
+\end{equation}
+Introduced in~\cite{tibshirani:1996}, \eqref{eq:nnlasso} provides a regressor $\widehat{\boldsymbol\beta}(r)$ whose sparsity is controlled by the parameter $r$ (the larger, the sparser).
+\begin{elsevierrevision}
+Note than many alternatives to LASSO exist in the literature, e.g. the sparse Bayesian learning  of~\cite{wipf_iterative_2010} or the reweighted $\ell_1$ basis pursuit procedure described in~\cite{candes_enhancing_2008}. However, since the dictionary $\mathbf{A}$ has very correlated atoms, consistency in selection cannot be achieved by any of the aforementioned techniques. It can be seen in~\cite{sepulcre_sparse_2013} that a non-negative LASSO behaves as well as the latter techniques for activity estimation, thus justifying our choice.
+\end{elsevierrevision}
+%In \cite{sepulcre_sparse_2013}, theretical results are presented which guarantee that the active bins can be related to the positive entries of~\eqref{eq:nnlasso}, provided a threshold is applied on the regressor $\widehat{\boldsymbol\beta}(r)$. However, in~\cite{sepulcre_sparse_2013} the number of active bins found were substituted directly in~\eqref{eq:ML_estimate}, yielding a bias in the activity estimation. In contrast, we suggest correcting this bias by using~\eqref{eq:new_estimate}, as now described.
+
+Given a sparsity parameter $r$, and assuming that  $\widehat{\boldsymbol\beta}(r) = [\widehat{\boldsymbol\beta}_0^T(r),\widehat{\boldsymbol\beta}_1^T(r),\ldots,\widehat{\boldsymbol\beta}_{N-1}^T(r)]^T$ has been computed (we refer to~\cite{liu_sparse_2018,trigano_cosa_2017} %~\cite{efron:hastie:johnstone:2004,liu_sparse_2018,trigano_cosa_2017}
+for fast computation methods), the estimation of $\lambda$ is performed by replacing a thresholded version of $\widehat{\boldsymbol\beta}(r)$ into a known estimate relying on the knowledge of the arrival times. It is shown in~\cite{trigano_intensity_2017} that, in the case of a constant activity, the (scalar) $\lambda$ can be effectively %\todo{yann: is the "oracle" estimator derived similarly ? (Yes)}
+estimated as follows:
+\begin{equation}
+\hat{\lambda}_{hpp} (r,\eta) = -\frac1{\Delta t} \ln\Bigl(1-\frac1N \sum_{n=0}^{N-1} \mathbf{1}(\|\widehat{\boldsymbol\beta}_n(r)\|_1 \ge \eta) \Bigr),
+\label{eq:homogeneous}	
+\end{equation}
+with $\eta>0$ being a user-defined threshold, whereas for time-varying activities, the (functional) $\lambda$ can be estimated in a nonparametric setting as
+\begin{equation}
+\hat{\lambda}_{nhpp} (t;r,\eta) = \frac1h \sum_{i=1}^{\widehat{M}}  W \left(\frac{t-\widehat{T}_{i} }{h} \right),
+\label{eq:nonhomogeneous}
+\end{equation}
+where $W$ is a standard kernel function integrating to $1$ and $h>0$ is a user-defined bandwidth parameter, and $\widehat{T}_{i} = \min \{t_n > \widehat{T}_{i-1} \ ; \ \widehat{\boldsymbol\beta}_n(r) > \eta, 
+ \widehat{\boldsymbol\beta}_{n-1}(r) < \eta \}$, as in \cite{trigano_intensity_2017}. The necessity for a threshold $\eta$ in both~\eqref{eq:homogeneous} and~\eqref{eq:nonhomogeneous} can be understood from the poor consistency in selection of LASSO\cite{wainwright_sharp_2009}, which holds under theoretical conditions often unfulfilled in practice. Therefore, only the most representative coefficients of $\widehat{\boldsymbol\beta}(r)$ must be selected, this done by adding an additional thresholding step.
+ 
+ Obviously,~\eqref{eq:homogeneous} and~\eqref{eq:nonhomogeneous} are conceptually different, since the first uses properties inherent to the homogeneity of the underlying Poisson process, and the second relies on a kernel function estimate. However, it can be seen that both rely on a thresholded version of a non-negative LASSO regressor, thus, both depend on the parameter $(r,\eta)$, which must be carefully set up to ensure satisfactory results. In previous contributions, we provided efficient, rule-of-thumb criteria~\cite{trigano_intensity_2017} as well as theoretical conditions \cite{trigano_sparse_2017,sepulcre_sparse_2013} on both $r$ and $\eta$ which guarantee a satisfactory estimation of the activity, both in the homogeneous and non-homogeneous frameworks. However, the theoretical conditions are difficult to check in practice, and assume prior information on the radioactive source which may be unavailable~\cite{trigano_sparse_2017}. 
+%The criterion described in~\cite{trigano_intensity_2017} also relies on partial knowledge of the radioactive source and the intuitive idea that LASSO must be stopped once we obtained a sufficiently good approximation of $\mathbf{y}$. This idea might be valid for medium-high activities, but is unsatisfactory for very high counting rates. 
+Thus, fully automatic strategies for parameter settings %induced by the data at hand 
+remain to be investigated.
+
+\subsection{Shortcomings of Cross-Validation}
+
+%As previously stated, the need for a data-driven choice of the parameters $r$ and $\eta$ is indeed an important issue, both from the theoretical and practical point of view. Therefore, 
+
+One seemingly relevant strategy would be the use of Cross-Validation (CV) for the choice of $\eta$. This being said, a standard cross-validation on the threshold parameter (or on the joint parameter $(r,\eta)$) would not provide satisfactory results, since it would systematically yield a larger than expected choice of $(r,\eta)$. We present in Figure~\ref{fig:cvversustrueMSE} a comparison between the approximated MSE with full knowledge of $\lambda$ and the leave-10-out cross validation function, estimated on 1000 simulations in the homogeneous setting (that is, using Equation~\eqref{eq:homogeneous}).
+\begin{IEEEsubmission}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.45\linewidth]{responsa_MSE}
+\includegraphics[width=0.45\linewidth]{responsa_CV}
+\caption{Comparison between approximated MSE (left) and cross-validation function (right) for $\lambda = 0.1$. Minimizing the cross-validation function yields wrong values of $(r,\eta)$.}
+\label{fig:cvversustrueMSE}
+\end{figure*}
+
+\end{IEEEsubmission}
+We can provide two explanations for such results: firstly, both thresholding and sparsity parameters influence the number of arrival times at hand for estimating the activity; this will introduce a bias in the activity estimator, leading to an estimate numerically equal to 0 with higher probability as we increase either on or the other of the parameters. Therefore the estimated cross-validation function will be equal to zero, when either $r$ or $\eta$ is sufficiently large. Another explanation for this phenomenon is that both sparsity parameters and thresholding are inherently related to the quality of the regressor $\boldsymbol\beta (r)$, thus not taking residual error into account in the cross-validation function would provide erroneous results. Therefore, though CV is a relevant way to choose the sparsity parameter $r$, it is not suited for a good choice of $\eta$. The next section provides a method of solving this issue.
+
+\begin{IEEEsubmission}
+\begin{figure*}[!ht]
+  \begin{subfigure}[b]{0.45\linewidth}
+\centering    \includegraphics[width=0.95\linewidth]{graphs/results_fd}
+    \caption{Case (I)}
+    \label{fig:from_dico}
+  \end{subfigure}
+    \begin{subfigure}[b]{0.45\linewidth}
+\centering    \includegraphics[width=0.95\linewidth]{graphs/results_random}
+    \caption{Case (II)}
+    \label{fig:random}
+  \end{subfigure}
+\caption{Results obtained on simulations}
+\label{fig:results}
+\end{figure*}
+\end{IEEEsubmission}
+
+\section{Data Driven Parameter Selection for Activity Estimation}
+\label{sec:cv_description}
+
+%\subsection{Preliminaries}
+
+We define a \textit{time cluster} as the indexes of consecutive $\hat{\boldsymbol\beta}_k(r)$'s whose values are non-zero. Mathematically, a time cluster $C$ is thus defined as an interval of integers verifying $\displaystyle C = \{[i,j]\ ; \ \hat{\boldsymbol\beta}_{i-1}(r) = \hat{\boldsymbol\beta}_{j+1}(r) = \mathbf{0}, \prod_{k=i}^j \|\hat{\boldsymbol\beta}_k(r)\|_1 > 0 \}$. 
+\begin{elsevierversion1}
+\begin{equation}
+\centering
+C = \{[i,j]\ ; \ \hat{\boldsymbol\beta}_{i-1}(r) = \hat{\boldsymbol\beta}_{j+1}(r) = \mathbf{0}, \prod_{k=i}^j \|\hat{\boldsymbol\beta}_k(r)\|_1 > 0 \}.
+\label{eq:timecluster}
+\end{equation}
+%
+Since all the time clusters are associated with $\hat{\boldsymbol\beta}_k (r)$'s having different $\ell_1$ norms, and since the energies of the associated electrical pulses are unknown, we suggest setting one threshold per cluster adaptively, for all the different time clusters. Obviously, the choice  of the threshold should depend on the values of $\|\hat{\boldsymbol\beta}_k (r)\|_1$; moreover, the procedure we suggest relies on the two following ideas:
+\begin{itemize}
+\item[(a)] Given a time cluster, the highest values of $\|\hat{\boldsymbol\beta}_k (r)\|_1$ are most likely related to actual arrival times,
+\item[(b)] If the coefficients of a cluster have the same order of magnitude, choosing a precise threshold has no statistical significance, and in that case we should return only the first time block as a relevent arrival time.
+\end{itemize}
+
+We these considerations in mind, it is now possible to develop a method to select the threshold $\eta_k$ associated to the time cluster $C_k$. We denote by $M_k$ the cardinality of $C_k$, so that $C_k = \{i_k,\ldots, i_k+M_k-1\}$, and by \begin{equation}
+\boldsymbol\gamma_{i} (r) = \dfrac{\|\hat{\boldsymbol\beta}_{i} (r)\|_1}{\displaystyle\sum_{n\in C_k} \|\hat{\boldsymbol\beta}_{n} (r)  \|_1} , i\in C_k
+\label{eq:def_gamma}
+\end{equation}
+the normalized norms of the timeblocks belonging to $C_k$. We can remark that the $\hat{\boldsymbol\gamma}_{i} (r)$ define a probability mass function with support on $C_k$. Without loss of generality (up to a permutation of the indices), we shall later on assume that the $\boldsymbol\gamma_{i} (r)$ are sorted from the largest value to the smallest, that is $\boldsymbol\gamma_{i_k} (r) > \boldsymbol\gamma_{i_k+1} (r) > \ldots > \boldsymbol\gamma_{i_k+M_k-1} (r) $. We then compare the entropy of the distribution induced by the $\boldsymbol\gamma_i(r)$, 
+$
+\displaystyle H = -\sum_{i\in C_k} \boldsymbol\gamma_{i} (r) \log_2 \boldsymbol\gamma_{i} (r),
+\label{eq:entropy}
+$
+and compare it to its maximal value $\log_2 M_k$. Denote by $\varepsilon$ denotes a user-defined threshold; if $|H-\log_2 M_k| < \varepsilon$, we set $\eta_k = \|\hat{\boldsymbol\beta}_1 (r)\|_1$; otherwise we replace in~\eqref{eq:def_gamma} $\|\hat{\boldsymbol\beta}_{1} (r)\|_1$ with $\|\hat{\boldsymbol\beta}_{2} (r)\|_1$ and recompute the $\gamma_i (r)$'s accordingly. The procedure is then repeated (in the sense that at iteration $j-1$, the terms $\|\hat{\boldsymbol\beta}_{i} (r)\|_1,\ i=1\ldots j-1$ are all replaced with $\|\hat{\boldsymbol\beta}_{j} (r)\|_1$ in \eqref{eq:def_gamma}) until $|H-\log_2 M_k| < \varepsilon$. In practice, setting $\varepsilon = 0.1$ provided satisfactory results in the presented applications.
+\end{elsevierversion1}
+%
+\begin{elsevierrevision}
+Since all the time clusters are associated with $\hat{\boldsymbol\beta}_k (r)$'s having different $\ell_1$ norms, and since the energies of the associated electrical pulses are unknown, we suggest setting one threshold per cluster adaptively, for all the different time clusters. Obviously, the choice  of the threshold should depend on the values of $\|\hat{\boldsymbol\beta}_k (r)\|_1$. Indeed, the procedure we suggest relies on two following ideas. First, given a time cluster, the highest values of $\|\hat{\boldsymbol\beta}_k (r)\|_1$ are most likely related to actual arrival times. Moreover, since $\mathbf{A}$ includes highly correlated columns, LASSO will perform poorly regarding the consistency in selection, and could artificially attribute non-negative values to consecutive timblocks $\|\hat{\boldsymbol\beta}_k (r)\|_1$, even if there is only one actual arrival time. Thus, if the coefficients of a cluster have the same order of magnitude, choosing a precise threshold has no statistical significance, and in that case we should return only the first time block as a relevent arrival time.
+
+With these considerations in mind, it is now possible to develop a method to select the threshold $\eta_k$ associated to the time cluster $C_k$. We denote by $M_k$ the cardinality of $C_k$, so that $C_k = \{i_k,\ldots, i_k+M_k-1\}$, and by 
+\begin{equation}
+\boldsymbol\gamma_{i} (r) = \dfrac{\|\hat{\boldsymbol\beta}_{i} (r)\|_1}{\displaystyle\sum_{n\in C_k} \|\hat{\boldsymbol\beta}_{n} (r)  \|_1} , i\in C_k
+\label{eq:def_gamma}
+\end{equation}
+the normalized norms of the timeblocks belonging to $C_k$. We can remark that the $\hat{\boldsymbol\gamma}_{i} (r)$ define a probability mass function with support on $C_k$. Without loss of generality (up to a permutation of the indices), we assume that the $\boldsymbol\gamma_{i} (r)$ are sorted from the largest value to the smallest, that is $\boldsymbol\gamma_{i_k} (r) > \boldsymbol\gamma_{i_k+1} (r) > \ldots > \boldsymbol\gamma_{i_k+M_k-1} (r) $. During the first iteration of our method, we compare the entropy of the distribution induced by the $\boldsymbol\gamma_i(r)$, 
+$
+\displaystyle H = -\sum_{i\in C_k} \boldsymbol\gamma_{i} (r) \log_2 \boldsymbol\gamma_{i} (r),
+\label{eq:entropy}
+$
+ to its maximal value $\log_2 M_k$. Denote by $\varepsilon$ a user-defined threshold; if $|H-\log_2 M_k| < \varepsilon$, we set $\eta_k = \|\hat{\boldsymbol\beta}_1 (r)\|_1$, since there is too much incertainty and we cannot differentiate between representative timeblocks and others. Otherwise we replace in~\eqref{eq:def_gamma} $\|\hat{\boldsymbol\beta}_{1} (r)\|_1$ with $\|\hat{\boldsymbol\beta}_{2} (r)\|_1$ (in practice, it means that $\eta_k$ will be set up in the second iteration as equal to the second to largest of the $\|\hat{\boldsymbol\beta}_j (r)\|_1$'s, and so forth) and recompute the $\gamma_i (r)$'s accordingly. The procedure is then repeated 
+%(in the sense that at iteration $j-1$, the terms $\|\hat{\boldsymbol\beta}_{i} (r)\|_1,\ i=1\ldots j-1$ are all replaced with $\|\hat{\boldsymbol\beta}_{j} (r)\|_1$ in \eqref{eq:def_gamma}) 
+until $|H-\log_2 M_k| < \varepsilon$. In practice, setting $\varepsilon = 0.1$ provided satisfactory results in the presented applications. The complete algorithm is summarized in Algorithm~\ref{alg:entropy}.
+\end{elsevierrevision}
+
+
+
+%\subsection{Additional Remarks}
+
+Considering the fact that the estimate~\eqref{eq:homogeneous} depends also on the sparsity parameter $r$, it is also of interest to infer it based on the data at hand. We conjecture that the optimal strategy would be to choose $(r,\eta)$ jointly, since the final estimate of $\lambda$ exhibits a strong dependency with both parameters. However, this optimal strategy is difficult to define. %In practice, we notice that the estimation procedure include two distinct steps, being the sparse reconstruction of $\mathbf{y}$ and the activity estimation based on the thresholded regressor afterwards. 
+Therefore, in this paper we suggest choosing first the sparsity parameter $r$, e.g. by using regular cross-validation or the modified cross-validation criterion described in~\cite{yu_modified_2014}, and then choosing $\eta$ by means of the method presented above.
+%
+We also notice that the presented approach is performed before the plug-in of the estimated active bins in~\eqref{eq:homogeneous} and of the arrival times in~\eqref{eq:nonhomogeneous}; therefore, the proposed method %is independent of the nature of the underlying Poisson process, and
+can be applied for the homogeneous case as well as the non-homogeneous one. 
+
+
+\section{Applications}
+\label{sec:applications}
+
+In this section, we present the results obtained from simulations, in which settings similar to~\cite{trigano_intensity_2017} are used. We briefly recall them for convenience. %. For the sake of comparison, we use in our simulations the same framework and settings as in~\cite{trigano_intensity_2017}, which now are briefly recalled.
+%
+%\subsection{Description of  the Simulations}
+%
+We simulate signals stemming from a homogeneous Poisson process whose true intensity $\lambda$ varies from 0.05 to 0.4. Those numbers are related to high or very high radioactive activities, as mentioned in~\cite{tsoulfanidis_measurement_1995}. The energies $E_n$ are drawn according to a truncated Gaussian density, with mean of 100 and variance of 5. The noise variance is chosen equal to $\sigma = 1$, in order to reflect a good SNR commonly found with Germanium detectors used in the field.
+
+%In order to check the robustness of the approach and its practical implementation for real-time instrumentation, t
+The signals are simulated either by drawing electrical pulse shapes randomly from $\mathbf{A}$ (Case I), or by creating a Gamma shape similar to~\eqref{eq:shape_basis} with parameters $\theta_1,\theta_2$ randomly chosen accordingly to a uniform distribution on $[0.3,1.3]$ (Case II). 
+%
+A total of $20$ different shapes (and their shifted versions) were used in the dictionary $\mathbf{A}$, with parameters $\theta_1 = \theta_2$ ranging from $0.4$ to $1.2$. This choice illustrates the fact that $\mathbf{A}$ must be carefully chosen, though some discrepancy between the shapes appearing in $\mathbf{y}$ and $\mathbf{A}$ may be allowed.
+
+%For simulations in the homogeneous setting, the automatic choice of $r$ and $\eta$ can be compared to the actual Mean Square Estimate function defined as $f(r,\eta) = E((\hat{\lambda}_{hpp} (r,\eta) - \lambda)^2)$, and more precisely to its actual minimum. Furthermore, we can compare the final estimates~\eqref{eq:homogeneous} and~\eqref{eq:nonhomogeneous} obtained after setting $r,\eta$ as proposed, with the results obtained in~\cite{trigano_intensity_2017} and~\cite{trigano_sparse_2017}.
+
+%For simulations in the homogeneous setting, performances of the proposed method were investigated accordingly to the following protocol. 
+In the homogeneous setting, for a given activity $\lambda$, we performed $1000$ experiments and drew for each experiment a different signal $\mathbf{y}^{(k)},\ k=1\ldots 1000$ of size $200$. For each signal, a NNLASSO regressor is derived, $\hat{\boldsymbol\beta}^{(k)} (r_{\scriptscriptstyle CV})$ with a sparsity parameter $r_{\scriptscriptstyle CV}$ computed by leave-10-out cross validation. Estimates of the activity $\hat{\lambda}_{hpp}^{(k)} (r_{\scriptscriptstyle CV},\eta_n), n=1\ldots 100$ are derived for $100$ different thresholds ranging from $0$ to $100$. These computations are performed for all the $\mathbf{y}^{(k)},\ k=1\ldots 1000$, thus we derive $1000$ error terms $e(k;\eta_n) = (\lambda - \hat{\lambda}_{hpp}^{(k)} (r_{\scriptscriptstyle CV},\eta_n))^2 $. On the other hand, we can also compute $1000$ error terms associated with our automatic choice of the threshold $e_{auto}(k) = (\lambda - \hat{\lambda}_{hpp,auto}^{(k)} (r_{\scriptscriptstyle CV})))^2 $. In the previous equation, we dropped the dependency on $\eta_n$, as it is important to recall that for all clusters of pulses, the value of $\eta$ changes. 
+%
+%\subsection{Results and Discussion}
+%
+In Figure~\ref{fig:results}, we present  a summary of the results of the simulations for the different values of $\lambda$. The limits of the blue area represent the minimum and maximum values of the errors $e(\eta_n)$'s. The red dotted line represents the average error $ \frac{1}{1000}\sum_{k=1}^{1000} e_{auto}(k)$, and the associated red area represents the $90\%$ confidence interval asspciated with the $e_{auto}(k)$. The proposed method for choosing the threshold $\eta$ adaptively provides estimates with a low associated error, and that it performs almost as well as the best manual choice of the threshold parameter. The overall results are good, though global performances are better obviously in case (I) than in case (II), as seen in the comparison between Figures~\ref{fig:from_dico} and \ref{fig:random}. Moreover, the proposed method leads to good estimates of $\lambda$ independently of its value, thus making it also valid in the non-homogeneous setting described in~\eqref{eq:nonhomogeneous}. 
+\begin{elsevierrevision2}
+Figure~\ref{fig:SNR} presents results obtained with $\lambda=0.1$ for different values of $\sigma$, both for $\hat{\boldsymbol{\beta}}(r)$ based on LASSO and based on SBL~\cite{wipf_sparse_2004}. A high Signal Noise Ratio  (which is the case in the described application, e.g. when using Germanium detectors) yields a satisfactory estimation of the activity in both cases. For high noise variances, a signal reconstruction based on method less sensitive to noise such as SBL should be preferred.  
+\end{elsevierrevision2}
+%\begin{elsevierrevision}
+%Figure~\ref{fig:SNR} presents results obtained for $\lambda=0.1$ for different values of $\sigma$. We note that, as long as the noise variance remains small with respect to the energies of the electrical pulses (which is the case in the described application, where excellent Signal Noise Ratios can be obtained with Germanium detectors), the proposed method yields a satisfactory estimation of the activity. %
+%\end{elsevierrevision}
+%
+\begin{elsevierrevision2}
+Figure~\ref{fig:differentsparsemethods} and Figure~\ref{fig:differentsparsemethodsR} show, for $100$ experiments the influence of the algorithm used for the sparse reconstruction of the signal, since many recent alternatives exist to NNLASSO. It can be seen in all cases, the estimation of the activity can benefit from our adaptive thresholding method.
+\end{elsevierrevision2}
+
+\begin{elsevierrevision}
+We now compare the proposed method with two other adaptive thresholding selection methods, based on $90\%$ quantiles of the $L_1$ norms and $L_2$ norms of each timeblock. Results for different activities are presented in Figure~\ref{fig:l1l2comp_fd} and Figure~\ref{fig:l1l2comp_random}. For very high intensities (above $0.2$), the entropy-based adaptive thresholding outperforms methods based on the other tested metrics in both cases. For intensities below $0.2$, we observed a small degradation of performances for Case II, though the error is of the same order of magnitude for all the tested methods. This illustrates the efficiency of the proposed approach. Furthermore, when comparing Figures~\ref{fig:l1l2comp_fd} with \ref{fig:from_dico}, we observed that all the adaptive methods provide low error rates when compared to the error range of manually set thresholds. Thus, an adaptive thresholding strategy should be preferred to a global threshold in this field of work. This makes the entropy-based adaptive thresholding a valid option for real spectroscopic experiments.% under high counting rate constraints.
+\end{elsevierrevision}
+ 
+%\subsection{Results on Real Data}
+
+%The proposed algorithm was tested on N=105 points of a real dataset stemming from the PiDie experiment. In this framework, the real activity is 106 photons per second, which when reported to the sampling frequency of 10 MHz gives a normalized activity of 0.1. The signal investigated was split into subsignals of size 100, each one providing a different estimate of the activity. r was set using the same rule as in the simulations, while we chose η=30. It can be seen from Fig. 4 that the arrival times can be well located. However, the average of the obtained activity estimates is 0.11, with a standard deviation of 0.01. This bias is related to Fig. 3(b), and illustrates that good fit between the recorded signal and A is required in order to obtain satisfactory results.
+
+%\subsection{Discussion}
+
+\section{Conclusion}
+  
+%In this paper, we presented an adaptive, entropy-based, method for selecting a threshold to improve a regressor pattern in a sparse reconstruction problem, and illustrated its efficiency for gamma spectroscopy applications. Theoretical properties of the proposed approach and validation on large-scale datasets will be investigated in future contributions.
+
+\begin{elsevierrevision2}
+%We presented an adaptive, entropy-based, method for selecting a threshold to improve a regressor pattern in a sparse reconstruction problem, and illustrated its efficiency for gamma spectroscopy applications. Theoretical properties of the proposed approach, validation on large-scale datasets and results on more recent sparse learning methods (e.g.~\cite{lu_regularized_2012} and \cite{shekaramiz_sparse_2016}) will be investigated in future contributions.
+We presented an adaptive, entropy-based, method for selecting a threshold to improve a sparse regressor's pattern used for radioactive activity estimation. The experiments performed showed that the activity estimation is significantly improved, independently of the algorithm used for the signal's sparse reconstruction. Theoretical bounds, validation on real datasets and results on other sparse learning methods (e.g.~\cite{lu_regularized_2012} and \cite{shekaramiz_sparse_2016}) will be investigated in future contributions.
+\end{elsevierrevision2}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%% Usage of \cite is as follows:
+%%   \cite{key}          ==>>  [#]
+%%   \cite[chap. 2]{key} ==>>  [#, chap. 2]
+%%   \citet{key}         ==>>  Author [#]
+
+%% References with bibTeX database:
+
+\bibliographystyle{model1-num-names}
+\bibliography{Bibliography}
+
+\newpage
+
+\begin{elseviersubmission}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.45\linewidth]{responsa_MSE}
+\includegraphics[width=0.45\linewidth]{responsa_CV}
+\caption{Comparison between approximated MSE (left) and cross-validation function (right) for $\lambda = 0.1$. Minimizing the cross-validation function yields wrong values of $(r,\eta)$.}
+\label{fig:cvversustrueMSE}
+\end{figure*}
+
+\begin{algorithm}[ht]
+\DontPrintSemicolon
+\KwData{Time cluster $C_k$, $M_k = \textrm{Card}\  C_k$, timeblocks $\hat{\boldsymbol{\beta}}_i (r), i\in C_k$.}
+\KwResult{$\eta_k$, the threshold used for the cluster of times $C_k$.}
+\Begin{
+Compute $\boldsymbol\gamma_{i} (r) = \dfrac{\|\hat{\boldsymbol\beta}_{i} (r)\|_1}{\displaystyle\sum_{n\in C_k} \|\hat{\boldsymbol\beta}_{n} (r)  \|_1} , i\in C_k$\;
+Initialize $\displaystyle H = - \sum_{i\in C_k}\boldsymbol\gamma_{i} (r) \log_2 \boldsymbol\gamma_{i} (r)$\;
+Initialize $\displaystyle \eta_k = \max_{i\in C_k} \|\hat{\boldsymbol\beta}_{i} (r)\|_1 $\;
+Compute $\displaystyle i_{max} = \arg\max_{i\in C_k} \|\hat{\boldsymbol\beta}_{i} (r)\|_1$ and $J=\{i_{max}\}$\;
+\While{$|H-\log_2 M_k| >0.1$ and $J\neq C_k$}{
+Compute $$j = \arg\max_{i\in C_k - J} \|\hat{\boldsymbol\beta}_{i} (r)\|_1$$\;
+Update $J = J \cup \{j\}$\;
+Update $\hat{\boldsymbol\beta}_{i} (r) = \hat{\boldsymbol\beta}_{j} (r)$ for all $i\in J$\;
+Update $\boldsymbol\gamma_{i} (r) = \dfrac{\|\hat{\boldsymbol\beta}_{i} (r)\|_1}{\displaystyle\sum_{n\in C_k} \|\hat{\boldsymbol\beta}_{n} (r)  \|_1} , i\in C_k$\;
+Update $\displaystyle H = - \sum_{i\in C_k}\boldsymbol\gamma_{i} (r) \log_2 \boldsymbol\gamma_{i} (r)$\;
+Update $\displaystyle \eta_k = \max_{i\in C_k} \|\hat{\boldsymbol\beta}_{i} (r)\|_1 $\;
+}
+}
+\caption{Entropy based threshold selection for the cluster $C_k$}
+\label{alg:entropy}
+\end{algorithm}
+
+\begin{figure*}[!ht]
+  \begin{subfigure}[b]{0.45\linewidth}
+\centering    \includegraphics[width=0.95\linewidth]{results_fd}
+    \caption{Case (I)}
+    \label{fig:from_dico}
+  \end{subfigure}
+    \begin{subfigure}[b]{0.45\linewidth}
+\centering    \includegraphics[width=0.95\linewidth]{results_random}
+    \caption{Case (II)}
+    \label{fig:random}
+  \end{subfigure}
+\caption{Results obtained on simulations. The red curve and area denote the MSE and the associated 90\% confidence interval obtained using the proposed thresholding procedure. The blue area represents the range of possible MSEs obtained by setting $\eta$ manually. The proposed method provides error rates as small as the best manual settings, for all the tested activities.}
+\label{fig:results}
+\end{figure*}
+
+
+
+
+\end{elseviersubmission}
+
+%\begin{elsevierrevision}
+%\begin{figure}[!ht]
+%    \centering
+%    \includegraphics[width=0.7\linewidth]{saveSNR.png}
+%    \caption{Evaluation of the threshold computation and activity estimation procedure for different noise levels. The dotted curve represents the Mean Squared Error, and the blue area the associated $90\%$-confidence interval.}
+%    \label{fig:SNR}
+%\end{figure}
+%\end{elsevierrevision}
+
+\begin{elsevierrevision2}
+\begin{figure}[!ht]
+    \centering
+\subcaptionbox{with a signal reconstruction based on LASSO~\cite{tibshirani:1996}\label{subfig:lassoSNR}}
+[.4\linewidth]{\includegraphics[width=0.4\linewidth]{saveSNRlog}}
+\hspace{0.1\linewidth}
+\subcaptionbox{with a signal reconstruction based on SBL~\cite{wipf_sparse_2004}\label{subfig:sblSNR}}
+[.4\linewidth]{\includegraphics[width=0.4\linewidth]{saveSBLSNRlog}}
+%\missingfigure[figwidth=0.4\linewidth]{SNR SBL results}}
+    \caption{Evaluation of the threshold computation and activity estimation procedure for different noise levels. The dotted curve represents the Mean Squared Error, and the blue area the associated $90\%$-confidence interval.}
+    \label{fig:SNR}
+\end{figure}
+\end{elsevierrevision2}
+
+
+
+\begin{elsevierrevision2}
+\begin{figure}[!ht]
+\centering
+\subcaptionbox{LASSO~\cite{tibshirani:1996}\label{subfig:lasso}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_FD_LASSO}}
+%\missingfigure[figwidth=0.4\linewidth]{LASSO results}}
+\subcaptionbox{OMP~\cite{cai_orthogonal_2011}\label{subfig:omp}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_FD_OMP}}
+%\missingfigure[figwidth=0.4\linewidth]{OMP results}}
+
+\subcaptionbox{SBL~\cite{wipf_sparse_2004}\label{subfig:sbl}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_FD_SBL}}
+%\missingfigure[figwidth=0.4\linewidth]{SBL results}}
+\subcaptionbox{SBL-SL~\cite{fang_prior_2014}\label{subfig:sblsl}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_FD_SBLSL}}
+%\missingfigure[figwidth=0.4\linewidth]{SBL-SL results}}
+
+\subcaptionbox{IHT~\cite{beck_fast_2009}\label{subfig:iht}}
+[.4\linewidth]{\includegraphics[width=.4\linewidth]{REV2_FD_IHT}}
+%\missingfigure[figwidth=0.4\linewidth]{FISTA results}}
+
+\caption{Influence of the sparse reconstruction used on the activity estimation for case I. For each figure, the red curve and area denote the MSE and the associated 90\% confidence interval obtained using the proposed thresholding procedure. The blue curve and area denote the MSE and the associated 90\% confidence interval obtained with a uniform thresholding $\eta = 5\sigma$.}
+\label{fig:differentsparsemethods}
+\end{figure}
+\end{elsevierrevision2}
+
+\begin{elsevierrevision2}
+\begin{figure}[!ht]
+\centering
+\subcaptionbox{LASSO~\cite{tibshirani:1996}\label{subfig:lassoR}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_R_LASSO}}
+%\missingfigure[figwidth=0.4\linewidth]{LASSO results}}
+\subcaptionbox{OMP~\cite{cai_orthogonal_2011}\label{subfig:ompR}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_R_OMP}}
+%\missingfigure[figwidth=0.4\linewidth]{OMP results}}
+
+\subcaptionbox{SBL~\cite{wipf_sparse_2004}\label{subfig:sblR}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_R_SBL}}
+%\missingfigure[figwidth=0.4\linewidth]{SBL results}}
+\subcaptionbox{SBL-SL~\cite{fang_prior_2014}\label{subfig:sblslR}}
+[.45\linewidth]{\includegraphics[width=.45\linewidth]{REV2_R_SBLSL}}
+%\missingfigure[figwidth=0.4\linewidth]{SBL-SL results}}
+
+\subcaptionbox{IHT~\cite{beck_fast_2009}\label{subfig:ihtR}}
+[.4\linewidth]{\includegraphics[width=.4\linewidth]{REV2_R_IHT}}
+%\missingfigure[figwidth=0.4\linewidth]{FISTA results}}
+
+\caption{Influence of the sparse reconstruction used on the activity estimation for case II. For each figure, the red curve and area denote the MSE and the associated 90\% confidence interval obtained using the proposed thresholding procedure. The blue curve and area denote the MSE and the associated 90\% confidence interval obtained with a uniform thresholding $\eta = 5\sigma$.}
+\label{fig:differentsparsemethodsR}
+\end{figure}
+\end{elsevierrevision2}
+
+
+\begin{elsevierrevision2}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{results_fd_L1L2comparison}
+    \caption{Comparison of the proposed approach (red curve and confidence interval) with adaptive $L_1$ (blue curve and confidence interval) and $L_2$ thresholding (yellow curve and confidence interval) - Case I}
+    \label{fig:l1l2comp_fd}
+\end{figure}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{results_random_L1L2comparison}
+    \caption{Comparison of the proposed approach (red curve and confidence interval) with adaptive $L_1$ (blue curve and confidence interval) and $L_2$ thresholding (yellow curve and confidence interval) - Case II}
+    \label{fig:l1l2comp_random}
+\end{figure}
+\end{elsevierrevision2}
+
+%% Authors are advised to submit their bibtex database files. They are
+%% requested to list a bibtex style file in the manuscript if they do
+%% not want to use model1-num-names.bst.
+
+%% References without bibTeX database:
+
+% \begin{thebibliography}{00}
+
+%% \bibitem must have the following form:
+%%   \bibitem{key}...
+%%
+
+% \bibitem{}
+
+% \end{thebibliography}
+
+\end{document}
+
