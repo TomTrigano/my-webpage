@@ -15,7 +15,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2026] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="lin_semi_2026.pdf">Click here to download the preprint</a>
+   <a href="lin_semi_2026.pdf">Click here to download the preprint</a><br><br>
    
    </details>
 
@@ -36,7 +36,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2025] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="huang_deep_2024">Click here to download the preprint</a>
+   <a href="huang_deep_2024">Click here to download the preprint</a><br><br>
    
    </details>
 
@@ -48,7 +48,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2025] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="bykhovsky_advanced_2025">Click here to download the preprint</a>
+   <a href="bykhovsky_advanced_2025">Click here to download the preprint</a><br><br>
    
    </details>
 
@@ -63,7 +63,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2024] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_deep_2024">Click here to download the preprint</a>
+   <a href="trigano_deep_2024">Click here to download the preprint</a><br><br>
    
    </details>
    
@@ -72,7 +72,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2023] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_adaptive_2023">Click here to download the preprint</a>
+   <a href="trigano_adaptive_2023">Click here to download the preprint</a><br><br>
    
    </details>
 
@@ -99,7 +99,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2017] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_intensity_2017">Click here to download the preprint</a>
+   <a href="trigano_intensity_2017">Click here to download the preprint</a><br><br>
    
    </details>
    
@@ -108,7 +108,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2016] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_sparse_2016">Click here to download the preprint</a>
+   <a href="trigano_sparse_2016">Click here to download the preprint</a><br><br>
    
    </details>
    
@@ -117,7 +117,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2015] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_pileup_2015">Click here to download the preprint</a>
+   <a href="trigano_pileup_2015">Click here to download the preprint</a><br><br>
    
    </details>
    
@@ -126,7 +126,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2015] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_fast_2015">Click here to download the preprint</a>
+   <a href="trigano_fast_2015">Click here to download the preprint</a><br><br>
    
    </details>
    
@@ -137,7 +137,7 @@ Last updated: August 2026
    <summary> View copyright and download preprint </summary> 
    
    <small> © [2013] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
-   <a href="trigano_sparse_2013">Click here to download the preprint</a>
+   <a href="trigano_sparse_2013">Click here to download the preprint</a><br><br>
    
    </details>
    
