@@ -17,7 +17,7 @@ Last updated: August 2026
    <small> © [2026] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
    <a href="lin_semi_2026.pdf">Click here to download the preprint</a><br><br>
    
-   </details>
+   </details><br>
 
 1. Y. Sepulcre and **T. Trigano**, "Sparser LASSO Induced by Convolutional Expansion (SLICE) for Robust Peak Localization in Gamma Spectroscopy", in *Signal Processing*, Vol. 249, Dec. 2026. DOI: <https://10.1016/j.sigpro.2026.110740> (SCI: Q1, JCR: Q2, 5 year IF 3.9, ranking 130/368, GR h-5 66) 
 
