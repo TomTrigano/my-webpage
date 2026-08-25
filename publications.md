@@ -93,6 +93,15 @@ Last updated: August 2026
 1. D. Bykhovsky and **T. Trigano**, *Numerical Generation of Compound Random Processes with Arbitrary Autocorrelation Functions*, Fluctuations and Noise Letters, Nov. 2017, <https://doi.org/10.1142/S0219477518500013> (**Q3**, GR 17).
 
 1. **T. Trigano**, I. Shevtsov and D. Luengo, *CoSA : an Accelerated ISTA Algorithm for Dictionaries Based on Translated Waveforms*, Signal Processing, 139, 131-135, Oct. 2017, <https://doi.org/10.1016/j.sigpro.2017.04.004> (**Q1**, GR 71, IF 4.729).
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2017] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
+</small>
+   <a href="lin_semi_2026.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+
 
 1. **T. Trigano** and Y. Cohen, *Intensity Estimation of Spectroscopic Signals with an Improved Sparse Reconstruction Algorithm*, IEEE Signal Processing Letters, Vol. 24(5), pp. 530-534, 2017, [10.1109/LSP.2017.2680839](https://doi.org/10.1109/LSP.2017.2680839) (**Q1**, GR 62, IF 3.201).
    <details>
