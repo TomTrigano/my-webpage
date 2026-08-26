@@ -30,6 +30,12 @@ Last updated: August 2026
    </details><br>
    
 1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, "Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis", in *Sensors*, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (SCI: Q1, JCR: Q2, 5 year IF 3.7, ranking 134/368, GR h-5 210)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>
+   
+   </details><br>
 
 1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (SCI: Q1, JCR: Q1, 5-year IF 3.4, ranking 5/44, GR h-5 79)
 
@@ -61,7 +67,13 @@ Last updated: August 2026
    </details><br>
 
 1. Y. Huang, X. Zheng, Y. Zhu, **T. Trigano**, Z. Chen and D. Bykhovsky, *Deep learning based pile-up correction algorithm for spectrometric data under high count rate measurements*, in Sensors, Special Issue on Spectral Detection Technology, Sensors and Instruments, Vol 25(5), 1464, Feb. 2025. DOI: <https://doi.org/10.3390/s25051464> (**Q2**, IF 3.4, GR h-5 191)
-
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>
+   
+   </details><br>
+   
 1. Z. Chen, D. Bykhovsky, X. Zheng, **T. Trigano**, Y. Zhu, *GaSim: A Python Class to Generate Simulated Time Signals for Gamma Spectroscopy*, in SoftwareX, Vol 29(2), 102037, <https://doi.org/10.1016/j.softx.2025.102037> (**Q2**, IF 2.4, GR h-5 45)
 
 1. Y. Tzror, M. Bezner, S. Deri, **T. Trigano**, K. Ben-Harush, *Nanofilament organization in highly tough fibers based on lamin proteins*, Journal of the Mechanical Behavior of Biomedical Materials, 160, 106748, 2024. <http://dx.doi.org/10.2139/ssrn.4868528> (**Q1**, IF 3.3, GR h-5 83)
@@ -103,7 +115,13 @@ Last updated: August 2026
 1. **T. Trigano** and Y. Bechor, *Fast Background Removal of JPEG Images Based on HSV Polygonal Cuts for a Foot Scanner Device*, Journal of Real-Time Image Processing, 17(4), pp. 981-992, 2019, <https://doi.org/10.1007/s11554-019-00850-5>  (**Q2**, GR 32, IF 2.293).
 
 1. D. Luengo, D. Meltzer and **T. Trigano**, *An Efficient Method to Learn Overcomplete Multi-Scale Dictionaries of ECG Signals*, Applied Science, 8(12), 2018, [**https://doi.org/10.3390/app8122569**](https://doi.org/10.3390/app8122569) (**Q2**, GR 105, IF 2.638).
-
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>
+   
+   </details><br>
+   
 1. **T. Trigano** and Y. Sepulcre, *Data-driven Parameter Selection in Activity Estimation for Nuclear Spectroscopy* , Signal Processing, 151, 99-106, 2018, <https://doi.org/10.1016/j.sigpro.2018.05.006> (**Q1**, GR 71, IF 4.729).
    <details>
    <summary> View copyright and download preprint </summary> 
