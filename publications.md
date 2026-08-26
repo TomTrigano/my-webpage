@@ -205,10 +205,29 @@ Last updated: August 2026
 1. J. Gavan, **T. Trigano**, S. Tapuchi and A. Kuperman, *Mitigation of Mobile Radio Parasitic Radiations Effect: a Review*, in Journal of Communication Engineering Systems, Vol 2(1), 1-11 2012, **Q4**.
 
 1. **T. Trigano**, U. Isserles and Y. Ritov, *Semiparametric curve alignment and shift density estimation for biological data*, IEEE Transactions in Signal Processing, Vol 59(5), 1970-1984, May, 2011, [10.1109/TSP.2011.2113179](https://doi.org/10.1109/TSP.2011.2113179) (**Q1**, GR 98, IF 4.875).
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2011] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
+   <a href="trigano_semiparam_2011.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
 
 1. **T. Trigano**, T. Montagu, E. Moulines, F. Roueff and A. Souloumiac, *Statistical Pile-Up Correction Method for HPGe Detectors*, IEEE Transactions on Signal Processing, Vol 55(10), 4871-4881, 2008, [10.1109/TSP.2007.896300](https://doi.org/10.1109/TSP.2007.896300) (**Q1**, GR 98, IF 4.875).
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2007] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
+   <a href="trigano_statistical_2007.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
 
 1. E. Moulines, F. Roueff, A. Souloumiac and **T. Trigano**, 2007, *Nonparametric Inference about Photon Energy from Indirect Measurements*, Bernoulli 13(2), 365-388, 2007, [10.3150/07-BEJ5184](http://dx.doi.org/10.3150/07-BEJ5184) (**Q1**, GR 41, IF 1.68)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   <small> © [2007] Open access publication, available freely by clicking on the DOI. </small><br><br>   
+   </details><br>
+
 
 # Book Chapters
 
