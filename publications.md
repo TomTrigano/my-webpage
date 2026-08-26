@@ -32,7 +32,7 @@ Last updated: August 2026
 1. C. Lin, X. Zheng, **T. Trigano**, D. Bykhovsky, Y. Zhu and L. Tian, "Spectroscopic Pulse Embeddings by Contrastive Learning from Unlabeled Data for Pile-Up Analysis", in *Sensors*, Vol. 26(7), 2138, Mar. 2026. DOI: <https://doi.org/10.3390/s26072138> (SCI: Q1, JCR: Q2, 5 year IF 3.7, ranking 134/368, GR h-5 210)
    <details>
    <summary> View copyright and download preprint </summary> 
-   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>   
+   <small> © [2026] Open access publication, available freely by clicking on the DOI. </small><br><br>   
    </details><br>
 
 1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudai, **T. Trigano** and I. Herrmann, *Spectroscopic analysis reveals an opposite pattern between carnosic and rosmarinic acids concentration in rosemary (Salvia rosmarinus)*, in Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy, Vol. 350, 127392, Apr. 2026. DOI: <https://10.1016/j.saa.2025.127392>  (SCI: Q1, JCR: Q1, 5-year IF 3.4, ranking 5/44, GR h-5 79)
@@ -68,7 +68,7 @@ Last updated: August 2026
    <details>
    <summary> View copyright and download preprint </summary> 
    
-   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>
+   <small> © [2025] Open access publication, available freely by clicking on the DOI. </small><br><br>
    
    </details><br>
    
@@ -104,7 +104,7 @@ Last updated: August 2026
    <details>
    <summary> View copyright and download preprint </summary> 
    
-   <small> © [2020] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
+   <small> © [2020] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/</a> .
 </small>
    <a href="trigano_sp_2020.pdf">Click here to download the preprint</a><br><br>
    
@@ -116,7 +116,7 @@ Last updated: August 2026
    <details>
    <summary> View copyright and download preprint </summary> 
    
-   <small> © [2026] Open access publication, available freely by clicking on the DOI. </a><br><br>
+   <small> © [2018] Open access publication, available freely by clicking on the DOI. </small><br><br>
    
    </details><br>
    
@@ -124,7 +124,7 @@ Last updated: August 2026
    <details>
    <summary> View copyright and download preprint </summary> 
    
-   <small> © [2018] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <https://creativecommons.org/licenses/by-nc-nd/4.0/> .
+   <small> © [2018] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/</a> .
 </small>
    <a href="trigano_entropy_2018.pdf">Click here to download the preprint</a><br><br>
    
