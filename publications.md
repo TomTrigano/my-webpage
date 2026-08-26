@@ -10,6 +10,15 @@ Last updated: August 2026
 
 *\[Information on Impact factors quartiles and rankings are related to the year of publication. Acronyms used: SCI: Scimago quartile, JCR: Journal Citation Report quartile\]. Journal rankings are taken from the JCR website.\]*
 
+1. C. Giladi, Y. Sepulcre and **T. Trigano**, ''Intensity and Dictionary Estimation for Nuclear Spectroscopy Using a Sparse Double Optimization'', in IEEE Transactions on Instrumentation and Measurement, 2026. 13 pages. DOI: <https://doi.org/10.1109/TIM.2026.3709451> . (SCI: Q1, JCR: Q1, 5-year IF 6.0, ranking: 54/368, GR h-5 124)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. </small>
+   <a href="giladi_sdo_2026.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+
 1. C. Lin, Y. Huang, Z. Chen, S. Gu, D. Bykhovsky, **T. Trigano**, X. Zheng,  Y. Zhu, ''Semi-Supervised Energy Spectrum Estimation in High Count-Rate Nuclear Spectrometry'', in *IEEE Transactions on Instrumentation and Measurement*, Vol. 75, 2512816, 2026. DOI: <https://doi.org/10.1109/TIM.2026.3706156> (SCI: Q1, JCR: Q1, 5-year IF 6.0, ranking: 54/368, GR h-5 124)
    <details>
    <summary> View copyright and download preprint </summary> 
