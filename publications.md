@@ -49,8 +49,24 @@ Last updated: August 2026
 1. A. Mishra, A. Krief, M.M. Sahoo, A. Schachter, I. Gondac, N. Dudaic, **T. Trigano**, I. Herrmann, "Pre- and post-harvest spectral estimation of selected phytochemicals in rosemary", in *Computers and Electronics in Agriculture*, Vol. 244, 111501, Mar. 2026. DOI: <https://doi.org/10.1016/j.compag.2026.111501> SCI: Q1, JCR: Q1, 5-year IF 9.3, 2/94, GR h-5 138)
 
 1. Z. Chen, X. Zheng, Y. Zhu, **T. Trigano**, Y. Huang and Y. Zhang, "Parallel implementation of spectral pileup correction and Gaussian noise suppression using CUDA heterogeneous architecture", in *Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment*,  Vol. 1082, Part 1, 170929, Feb. 2026. DOI: <https://doi.org/10.1016/j.nima.2025.170929>. (SCI: Q2, JCR: Q3, 5-year IF: 1.4, ranking 57/79, GR h-5 48)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/ </a> .
+</small>
+   <a href="chen_parallel_2026.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
 
 1. **T. Trigano**, Y. Sepulcre, M. Masika, A. Perez and D. Luengo, "FDP-TF: a Fast Two-Pass Trend Filtering for ECG Delination", in *Computers in Biology and Medicine*, Vol. 197, Part A, 110927, Oct. 2025. DOI: <https://doi.org/10.1016/j.compbiomed.2025.110927>. (SCI: Q1, JCR: Q1, 5-year IF 6.5, ranking 26/177, GR h-5 140)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2025] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/ </a> .
+</small>
+   <a href="trigano_fdptf_2025.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
 
 1. Y. Huang, C. Lin, D. Bykhovsky, **T. Trigano**, Z. Chen, X. Zheng, and Y. Zhu, "Deep Learning Based Energy Spectrum Estimation for High Counting Rate Nuclear Spectrometry", in *IEEE Transactions on Instrumentation and Measurement*, Vol. 74, 2533014, May. 2025. DOI: <https://doi.org/10.1109/TIM.2025.3573370> (SCI: Q1, JCR: Q1, 5-year IF 6.0, ranking: 54/368, GR h-5 124)
    <details>
@@ -82,6 +98,15 @@ Last updated: August 2026
    </details><br>
    
 1. Z. Chen, D. Bykhovsky, X. Zheng, **T. Trigano**, Y. Zhu, *GaSim: A Python Class to Generate Simulated Time Signals for Gamma Spectroscopy*, in SoftwareX, Vol 29(2), 102037, <https://doi.org/10.1016/j.softx.2025.102037> (**Q2**, IF 2.4, GR h-5 45)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2025] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/ </a> .
+</small>
+   <a href="chen_software_2025.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+
 
 1. Y. Tzror, M. Bezner, S. Deri, **T. Trigano**, K. Ben-Harush, *Nanofilament organization in highly tough fibers based on lamin proteins*, Journal of the Mechanical Behavior of Biomedical Materials, 160, 106748, 2024. <http://dx.doi.org/10.2139/ssrn.4868528> (**Q1**, IF 3.3, GR h-5 83)
 
@@ -106,6 +131,14 @@ Last updated: August 2026
 1.  **T. Trigano** and Z. Fradkin, *Fast Algorithm for Time Decay Estimation with Applications to Electrostatic Ion Beam Traps*, in Measurement Science and Technology,  Vol 34(2), pp. 025701, 2023, <https://doi.org/10.1088/1361-6501/ac9c23>. (**Q2**, GR 42, IF 2.398).
 
 1. **T. Trigano** and D. Luengo, *Intracardiac ECG Pulse Localization using Overlapping Block Sparse Reconstruction*, in Biomedical Signal Processing and Control, Vol. 73(1), pp. 103921, Jan. 2023,<https://doi.org/10.1016/j.bspc.2022.103921> (**Q1**, GR 69, IF 5.076)
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2023] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/ </a> .
+</small>
+   <a href="trigano_ogl_2023.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
 
 1. M. Khayat, S. Deri, D. Wolf, **T. Trigano**, O. Medalia, K. Ben-Harush, *Biomimetic nuclear lamin fibers with remarkable toughness and stiffness*, in International Journal of Biological Macromolecules, Vol 163, pp 2060-2067, Nov. 2020, <https://doi.org/10.1016/j.ijbiomac.2020.09.113> (**Q2**, GR 123, IF 8.025).
 
