@@ -10,6 +10,17 @@ Last updated: August 2026
 
 *\[Information on Impact factors quartiles and rankings are related to the year of publication. Acronyms used: SCI: Scimago quartile, JCR: Journal Citation Report quartile\]. Journal rankings are taken from the JCR website.\]*
 
+1. **T. Trigano**, Y. Sepulcre and I. Lapidot, "Doubly Stochastic Mean-Shift Clustering", in *Signal Processing*, Special Issue on Clustering for Signal Processing: Challenges, Advances, and Emerging Applications, Vol. 253, Apr. 2027. DOI: <https://10.1016/j.sigpro.2026.110962> (SCI: Q1, JCR: Q2, 5 year IF 3.9, ranking 130/368, GR h-5 66) 
+   <details>
+   <summary> View copyright and download preprint </summary> 
+   
+   <small> © [2026] Publised by Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0 license <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"> https://creativecommons.org/licenses/by-nc-nd/4.0/ </a> .
+</small>
+   <a href="trigano_DSMS_2027.pdf">Click here to download the preprint</a><br><br>
+   
+   </details><br>
+
+
 1. C. Giladi, Y. Sepulcre and **T. Trigano**, ''Intensity and Dictionary Estimation for Nuclear Spectroscopy Using a Sparse Double Optimization'', in IEEE Transactions on Instrumentation and Measurement, 2026. 13 pages. DOI: <https://doi.org/10.1109/TIM.2026.3709451> . (SCI: Q1, JCR: Q1, 5-year IF 6.0, ranking: 54/368, GR h-5 124)
    <details>
    <summary> View copyright and download preprint </summary> 
